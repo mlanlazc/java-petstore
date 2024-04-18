@@ -126,6 +126,7 @@
                         <artifactId>nexus-staging-maven-plugin</artifactId>
                         <version>1.6.7</version>
                         <extensions>true</extensions>
+                        <tokenAuth>true</tokenAuth>
                         <configuration>
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
