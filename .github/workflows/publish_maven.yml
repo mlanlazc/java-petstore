@@ -34,7 +34,7 @@ jobs:
           --no-transfer-progress \
           --batch-mode \
           -Dgpg.passphrase=${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }} \
-          clean deploy
+          clean deploy -X -e
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
