@@ -15,12 +15,11 @@
         3.5.2
     </version>
 
+    <!-- See https://central.sonatype.org/publish/requirements/#project-name-description-and-url -->
     <name>Java Pet Store SDK</name>
     <description>A Java SDK for Milanpetstoresdk.</description>
-    <url>
-        https://liblab.com/
-    </url>
 
+    <!-- See https://central.sonatype.org/publish/requirements/#scm-information -->
     <scm>
         <connection>
             scm:git:git://github.com/mlanlazc/java-petstore.git
@@ -120,7 +119,7 @@
                             <tokenAuth>true</tokenAuth>
                             <autoPublish>true</autoPublish>
                         </configuration>
-                        </plugin>
+                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
